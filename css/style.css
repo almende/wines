@@ -1,0 +1,59 @@
+
+body, html {
+  font: 11pt "Trebuchet MS", ubuntu, sans-serif;
+  color: #4d4d4d;
+}
+
+.ui-state-default {
+  color: #4d4d4d;
+}
+
+.ui-state-active {
+  color: #cc0000;
+}
+
+#search {
+  font: inherit;
+  color: #cc0000;
+  padding: 6px;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+}
+
+#year {
+  display: inline-block;
+  width: 300px;
+  margin: 0 16px;
+}
+
+.wines {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  padding: 8px 16px;
+}
+
+.wines th,
+.wines td {
+  padding: 8px 16px;
+  border: 1px solid #eeeeee;
+}
+
+.wines th {
+  background-color: #eeeeee;
+}
+
+.datasource,
+.datasource a {
+  font-style: italic;
+  color: #B5B5B5;
+}
+
+.datasource a:hover {
+  color: red;
+}

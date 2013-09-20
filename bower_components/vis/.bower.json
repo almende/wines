@@ -1,0 +1,32 @@
+{
+  "name": "vis",
+  "version": "0.2.0",
+  "description": "A dynamic, browser-based visualization library.",
+  "homepage": "http://visjs.org/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/almende/vis.git"
+  },
+  "ignore": [
+    "node_modules",
+    "src",
+    "test",
+    "tools",
+    ".idea",
+    "Jakefile.js",
+    "package.json",
+    ".npmignore",
+    ".gitignore"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "bdcb1040a3f32d47603d85b974032360b51509ee"
+  },
+  "_source": "git://github.com/almende/vis.git",
+  "_target": "*",
+  "_originalSource": "vis"
+}

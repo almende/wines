@@ -1,0 +1,9 @@
+{
+  "name": "GD 2013 contest",
+  "version": "0.0.1",
+  "main": "index.html",
+  "dependencies": {
+    "angular": "1.0.x",
+    "vis": "latest"
+  }
+}

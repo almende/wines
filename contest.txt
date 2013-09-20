@@ -1,0 +1,20 @@
+Contest for the GD 2013 Conference
+
+http://graphdrawing.de/contest2013/topic1.html
+
+# Topic 1: Creative
+
+In each category of the Creative topic, the task is to create a meaningful graph from data found on a specific website and visualize it in a suitable way. We will judge both the created graph itself and how it is visualized.
+
+For the visualization of the graph, we leave it open as to how this can be done. It could be a typical drawing of the graph as a picture, a map-like drawing, an animation, an interactive tool, or whatever comes to mind. **Be creative!**
+
+Your submission shall include the graph data itself (e.g., in a common graph file format or as a text file), the visualization (e.g., a PDF of the picture, a movie in a standard format, a link to a web page), and a PDF briefly describing how the graph and the visualization were obtained.
+
+## Category A
+
+Create a meaningful graph from the data about Bordeaux Wines found on the website [Bordeaux Wines](http://www.bordeaux.com/us/vineyard/bordeaux-wine-vintages), and visualize it in a suitable way.
+
+## Category B
+
+Create a meaningful graph from the data about Bordeaux City found on the (official website of the city of Bordeaux](http://www.bordeaux.fr/), and visualize it in a suitable way.
+

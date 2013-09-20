@@ -1,0 +1,128 @@
+<!doctype html>
+<html ng-app>
+<head>
+  <title>Find yourself a good wine year | GD 2013 contest</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/blitzer/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.js"></script>
+
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/vis/vis.min.js"></script>
+
+  <script src="data.js"></script>
+  <script src="js/Controller.js"></script>
+
+</head>
+<body ng-controller="Controller">
+<div>
+  <h1>Find yourself a good wine year</h1>
+
+  <table>
+    <tr>
+      <th>
+        <label for="search">Search</label>
+      </th>
+      <td>
+        <input ng-model="filter.search" id="search" type="search" placeholder="type, character" />
+        (Enter a search term like type or character)
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label for="year">Year</label>
+      </th>
+      <td>
+        {{filter.year.from}}
+        <div id="year"></div>
+        {{filter.year.to}}
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label>Quality</label>
+      </th>
+      <td>
+        <div id="quality">
+          <input ng-model="filter.qualities.1" type="checkbox" id="quality1" checked="true" />
+          <label for="quality1" title="{{data.qualities.1.description}}">Uneven</label>
+          <input ng-model="filter.qualities.2" type="checkbox" id="quality2" checked="true" />
+          <label for="quality2" title="{{data.qualities.2.description}}">Good</label>
+          <input ng-model="filter.qualities.3" type="checkbox" id="quality3" checked="true" />
+          <label for="quality3" title="{{data.qualities.3.description}}">Excellent</label>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label>Age</label>
+      </th>
+      <td>
+        <div id="age">
+          <input ng-model="filter.ages.1" type="checkbox" id="age1" checked="true" />
+          <label for="age1" title="{{data.ages.1.description}}">Young</label>
+          <input ng-model="filter.ages.2" type="checkbox" id="age2" checked="true" />
+          <label for="age2" title="{{data.ages.2.description}}">Round</label>
+          <input ng-model="filter.ages.3" type="checkbox" id="age3" checked="true" />
+          <label for="age3" title="{{data.ages.3.description}}">Mature</label>
+          <input ng-model="filter.ages.4" type="checkbox" id="age4" checked="true" />
+          <label for="age4" title="{{data.ages.4.description}}">Peak</label>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>
+        <label>Display</label>
+      </th>
+      <td>
+        <div id="view">
+          <input type="radio" id="tableview" name="view" ng-model="view" value="table" checked="checked" /><label for="tableview">Table</label>
+          <input type="radio" id="graphview" name="view" ng-model="view" value="graph" /><label for="graphview">Graph</label>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <div ng-show="view == 'table'">
+    <p>
+      {{countWines()}} results
+    </p>
+
+    <table class="wines">
+      <tr>
+        <th>Type</th>
+        <th>Year</th>
+        <th>Quality</th>
+        <th>Character</th>
+        <th>Age</th>
+      </tr>
+
+      <tr ng-repeat="wine in data.wines | filter:wineFilter">
+        <td>{{wine.type}}</td>
+        <td>{{wine.year}}</td>
+        <td title="{{data.qualities[wine.quality].description}}">
+          {{data.qualities[wine.quality].name}}
+        </td>
+        <td>{{data.types[wine.type][wine.character]}}</td>
+        <td title="{{data.ages[wine.age].description}}">
+          {{data.ages[wine.age].name}}
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div ng-show="view == 'graph'">
+    todo...
+  </div>
+
+  <p class="datasource">
+    data source: <a href="http://www.bordeaux.com/us/vineyard/bordeaux-wine-vintages" target="_blank">http://www.bordeaux.com/us/vineyard/bordeaux-wine-vintages</a>
+  </p>
+
+</div>
+</body>
+</html>
