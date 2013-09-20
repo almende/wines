@@ -6,819 +6,819 @@
 var data = {
   "wines": [
     {
-      "type": "red",
+      "color": "red",
       "year": 2012,
       "quality": 2,
       "character": "a",
       "age": 1
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2011,
       "quality": 2,
       "character": "a",
       "age": 1
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2010,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2009,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2008,
       "quality": 3,
       "character": "a",
       "age": 1
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2007,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2006,
       "quality": 3,
       "character": "a",
       "age": 3
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2005,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2004,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2003,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2002,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2001,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 2000,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1999,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1998,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1997,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1996,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1995,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1994,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1993,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1990,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1989,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1988,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1986,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1985,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1983,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1982,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1981,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1978,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1975,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1970,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1966,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1964,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1961,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1959,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1955,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1953,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1949,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1947,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1945,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1929,
       "quality": 3,
       "character": "c",
       "age": 4
     },
     {
-      "type": "red",
+      "color": "red",
       "year": 1928,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2012,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2011,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2010,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2009,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2008,
       "quality": 3,
       "character": "a",
       "age": 3
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2007,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2006,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2005,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2004,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2003,
       "quality": 2,
       "character": "b",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2002,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2001,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 2000,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1999,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1998,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1997,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1996,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1995,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1994,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1993,
       "quality": 1,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1992,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1991,
       "quality": 1,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1990,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1989,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1988,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1987,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1986,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1985,
       "quality": 3,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1984,
       "quality": 3,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1983,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1982,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "dry white",
+      "color": "dry white",
       "year": 1981,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2012,
       "quality": 2,
       "character": "a",
       "age": 1
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2011,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2010,
       "quality": 3,
       "character": "a",
       "age": 1
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2009,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2008,
       "quality": 3,
       "character": "a",
       "age": 1
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2007,
       "quality": 3,
       "character": "b",
       "age": 1
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2006,
       "quality": 2,
       "character": "a",
       "age": 3
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2005,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2004,
       "quality": 2,
       "character": "c",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2003,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2002,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2001,
       "quality": 3,
       "character": "b",
       "age": 3
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 2000,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1999,
       "quality": 2,
       "character": "c",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1998,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1997,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1996,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1995,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1990,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1989,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1988,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1986,
       "quality": 3,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1985,
       "quality": 2,
       "character": "a",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1983,
       "quality": 3,
       "character": "b",
       "age": 2
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1982,
       "quality": 2,
       "character": "a",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1981,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1979,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1978,
       "quality": 2,
       "character": "c",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1976,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1975,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1970,
       "quality": 3,
       "character": "c",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1967,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1962,
       "quality": 3,
       "character": "a",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1961,
       "quality": 2,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1959,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1955,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1949,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1947,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1945,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1937,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1929,
       "quality": 3,
       "character": "b",
       "age": 4
     },
     {
-      "type": "sweet white",
+      "color": "sweet white",
       "year": 1921,
       "quality": 3,
       "character": "b",
       "age": 4
     }
   ],
-  "types": {
+  "colors": {
     "red": {
       "a": "Well-balanced, full-bodied, harmonious.",
       "b": "Very robust, strong backbone.",

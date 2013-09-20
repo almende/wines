@@ -20,7 +20,7 @@
 
 </head>
 <body ng-controller="Controller">
-<div>
+<div class="main">
   <h1>Find yourself a good wine year</h1>
 
   <table>
@@ -81,18 +81,18 @@
       </th>
       <td>
         <div id="view">
-          <input type="radio" id="tableview" name="view" ng-model="view" value="table" checked="checked" /><label for="tableview">Table</label>
-          <input type="radio" id="graphview" name="view" ng-model="view" value="graph" /><label for="graphview">Graph</label>
+          <input type="radio" id="tableview" name="view" ng-model="view" value="table" /><label for="tableview">Table</label>
+          <input type="radio" id="graphview" name="view" ng-model="view" value="graph" checked="checked" /><label for="graphview">Graph</label>
         </div>
       </td>
     </tr>
   </table>
 
-  <div ng-show="view == 'table'">
-    <p>
-      {{countWines()}} results
-    </p>
+  <p>
+    {{countWines()}} results
+  </p>
 
+  <div ng-show="view == 'table'">
     <table class="wines">
       <tr>
         <th>Color</th>
@@ -103,12 +103,12 @@
       </tr>
 
       <tr ng-repeat="wine in data.wines | filter:wineFilter">
-        <td>{{wine.type}}</td>
+        <td>{{wine.color}}</td>
         <td>{{wine.year}}</td>
         <td title="{{data.qualities[wine.quality].description}}">
           {{data.qualities[wine.quality].name}}
         </td>
-        <td>{{data.types[wine.type][wine.character]}}</td>
+        <td>{{data.colors[wine.color][wine.character]}}</td>
         <td title="{{data.ages[wine.age].description}}">
           {{data.ages[wine.age].name}}
         </td>
@@ -117,7 +117,6 @@
   </div>
 
   <div ng-show="view == 'graph'">
-    <button ng-click="drawGraph()">Draw</button>
     <div id="graph"></div>
   </div>
 

@@ -1,6 +1,6 @@
 function Controller($scope) {
   $scope.data = data;
-  $scope.view = 'table'; // 'table' or 'graph'
+  $scope.view = 'graph'; // 'table' or 'graph'
 
   // read oldest/newest year from data
   var year = {
@@ -15,6 +15,9 @@ function Controller($scope) {
       year.to = wine.year;
     }
   });
+
+  // put all wines in a dataset
+  $scope.wines = new vis.DataSet($scope.data.wines);
 
   $scope.filter = {
     year: year,
@@ -33,7 +36,7 @@ function Controller($scope) {
 
   /**
    * Filter a wine by the search criteria
-   * @param {{type:String, year:Number, quality:Number, character:String, age:Number}} wine
+   * @param {{color:String, year:Number, quality:Number, character:String, age:Number}} wine
    * @returns {boolean|*|*}
    */
   $scope.wineFilter = function (wine) {
@@ -45,9 +48,9 @@ function Controller($scope) {
     }
 
     var matching = (!filter.search
-        || match(wine.type)
+        || match(wine.color)
         || match(data.qualities[wine.quality].description)
-        || match(data.types[wine.type][wine.character]));
+        || match(data.colors[wine.color][wine.character]));
 
     return matching
         && (wine.year >= filter.year.from && wine.year <= filter.year.to)
@@ -55,8 +58,35 @@ function Controller($scope) {
         && (filter.ages[wine.age]);
   };
 
-  $scope.drawGraph = function () {
-    drawGraph($scope.data);
+  /**
+   * Filter a wine by the search criteria
+   */
+  $scope.filterWines = function () {
+    var filtered = [];
+
+    for (var id in allNodes) {
+      if (allNodes.hasOwnProperty(id)) {
+        var node = allNodes[id];
+        if ($scope.wineFilter(node.data)) {
+          filtered.push(node);
+
+          // add the wine to the dataset
+          if (!filteredNodes[id]) {
+            filteredNodes[id] = node;
+            nodes.add(node);
+          }
+        }
+        else {
+          // remove the wine from the dataset
+          if (filteredNodes[id]) {
+            filteredNodes[id] = null;
+            nodes.remove(id);
+          }
+        }
+      }
+    }
+
+    return filtered;
   };
 
   /**
@@ -64,15 +94,7 @@ function Controller($scope) {
    * @return {Number} count
    */
   $scope.countWines = function () {
-    var count = 0;
-
-    $scope.data.wines.forEach(function (wine) {
-      if ($scope.wineFilter(wine)) {
-        count++;
-      }
-    });
-
-    return count;
+    return $scope.filterWines().length;
   };
 
   /**
