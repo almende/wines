@@ -63,4 +63,20 @@ th, td {
   height: 600px;
   border: 1px solid #eeeeee;
   border-radius: 6px;
+  /*
+  background-color: #C2E751;
+  background-color: #8da93b;
+  background-color: #5d722d;
+  */
+  background-color: #8da93b;
+}
+
+.tooltip {
+  width: 300px;
+  white-space: normal;
+}
+
+.tooltip th,
+.tooltip td {
+  padding: 3px;
 }
