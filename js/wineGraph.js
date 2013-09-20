@@ -9,7 +9,7 @@ var LINE2 = 3;
 var LINE3 = 1;
 
 // root node
-nodes.add({ id: 'wines', label: 'Wines', group: 'root' });
+nodes.add({ id: 'wines', label: 'Wines', group: 'root', radius: 1 });
 
 // colors
 nodes.add({ id: 'red',        label: 'Red',         group: 'red', title: 'Color: red' });
@@ -118,6 +118,7 @@ data.wines.forEach(function (wine) {
 });
 
 // draw graph
+var graph = null;
 $(document).ready(function () {
   var container = document.getElementById('graph');
 
@@ -151,5 +152,5 @@ $(document).ready(function () {
     stabilize: false
   };
 
-  var graph = new vis.Graph(container, graphData, options);
+  graph = new vis.Graph(container, graphData, options);
 });
