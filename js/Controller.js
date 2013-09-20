@@ -55,6 +55,10 @@ function Controller($scope) {
         && (filter.ages[wine.age]);
   };
 
+  $scope.drawGraph = function () {
+    drawGraph($scope.data);
+  };
+
   /**
    * Count the number of filtered wines
    * @return {Number} count

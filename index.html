@@ -12,10 +12,11 @@
   <script src="js/jquery-ui-1.10.3.custom.js"></script>
 
   <script src="bower_components/angular/angular.min.js"></script>
-  <script src="bower_components/vis/vis.min.js"></script>
+  <script src="bower_components/vis/vis.js"></script>
 
   <script src="data.js"></script>
   <script src="js/Controller.js"></script>
+  <script src="js/wineGraph.js"></script>
 
 </head>
 <body ng-controller="Controller">
@@ -116,7 +117,8 @@
   </div>
 
   <div ng-show="view == 'graph'">
-    todo...
+    <button ng-click="drawGraph()">Draw</button>
+    <div id="graph"></div>
   </div>
 
   <p class="datasource">

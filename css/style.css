@@ -57,3 +57,10 @@ th, td {
 .datasource a:hover {
   color: red;
 }
+
+#graph {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+}
