@@ -65,6 +65,25 @@ function getColor(color) {
   return null;
 }
 
+/**
+ * Get image name from a wine color
+ * @param {String} age  wine age
+ * @param {String} color  wine color
+ * @return {String} image url
+ */
+function getImage(age, color) {
+  var group = getGroup(color);
+  var name = '';
+  switch (age) {
+    case 1: name = 'grapes'; break;
+    case 2: name = 'bottles'; break;
+    case 3: name = 'barrel'; break;
+    case 4: name = 'carafe'; break;
+    default: name = 'glass'; break;
+  }
+  return 'img/' + name + '_' + group + '.svg';
+}
+
 // generate nodes and edges for each of the wines
 data.wines.forEach(function (wine) {
   var id = wine.color + '.' + wine.year;
@@ -87,7 +106,7 @@ data.wines.forEach(function (wine) {
     title: title,
     value: wine.quality,
     shape: 'image',
-    image: 'img/glass_' + group + '.svg',
+    image: getImage(wine.age, wine.color),
     group: group,
     fontColor: getColor(wine.color)
   };
