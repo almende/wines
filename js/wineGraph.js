@@ -57,6 +57,8 @@ function drawGraph(data) {
   data.wines.forEach(function (wine) {
     var id = wine.type + '.' + wine.year;
     var group = getGroup(wine.type);
+    var from = group + '.' + wine.character;
+
     nodes.add({
       id: id,
       label: String(wine.year),
@@ -66,7 +68,7 @@ function drawGraph(data) {
       group: group,
       fontColor: '#4d4d4d'
     });
-    edges.add({ from: group, to: id, width: LINE3 });
+    edges.add({ from: from, to: id, width: LINE3 });
   });
 
   var container = document.getElementById('graph');
